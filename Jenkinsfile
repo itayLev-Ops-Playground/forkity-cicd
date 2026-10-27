@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    options {
-        timestamps()
-        disableConcurrentBuilds()
-    }
+    // options {
+    //     timestamps()
+    //     disableConcurrentBuilds()
+    // }
 
     environment {
         // Compose requires this value to be present during config/build.

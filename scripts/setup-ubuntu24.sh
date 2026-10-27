@@ -3,7 +3,7 @@
 # Run as root: sudo bash scripts/setup-ubuntu24.sh
 set -Eeuo pipefail
 
-readonly REPOSITORY_URL="${FORKITY_REPO_URL:-https://github.com/itayLev-Ops-Playground/Forkity-V1.git}"
+readonly REPOSITORY_URL="${FORKITY_REPO_URL:-https://github.com/itayLev-Ops-Playground/forkity-cicd.git}"
 readonly INSTALL_DIR="${FORKITY_INSTALL_DIR:-/opt/forkity}"
 
 log() { printf '\n[%s] %s\n' "$(date '+%H:%M:%S')" "$*"; }
